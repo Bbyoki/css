@@ -1,0 +1,14 @@
+selector {
+    animation: piscar 3s infinite; /* Define a animação chamada "piscar" para durar 1 segundo e repetir infinitamente */
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 1; /* Começa com o texto visível */
+    }
+    50% {
+        opacity: 0.3; /* Texto fica invisível na metade do tempo */
+    }
+    100% {
+        opacity: 1; /* Texto volta a ficar visível no final */
+    }
