@@ -1,0 +1,6 @@
+/* NOTA: esse código funciona só no elementor, e é aplicado em todos os containers que vão ter o efeito sticky aplicado. e se tiver algum outro container com o efieto sticky aplicado, ele vai sofrer a aplicação deste código também. se você tiver 2 containers diferentes; um é o cabeçalho que esse código vai ser aplicado, e o outro é só um outro container, você vai ter que definir uma classe ou id para que o código pegue em containers específicos. */
+
+.elementor-sticky--effects {
+   background-color #000000;
+}
+
