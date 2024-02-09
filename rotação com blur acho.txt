@@ -1,0 +1,10 @@
+/* Defina a animação de rotação */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Aplique a animação à imagem */
+.logo-rodape{
+  animation: spin 50s linear infinite; /* 2s de duração, linear (velocidade constante), infinita */
+}
