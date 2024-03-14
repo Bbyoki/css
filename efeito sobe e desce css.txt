@@ -1,0 +1,12 @@
+.custom-counter-container .elementor-counter-number-wrapper {
+    animation: randomCounter 1s infinite alternate;
+}
+
+@keyframes randomCounter {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
